@@ -8,3 +8,18 @@
  * But there is also a view in the database that contains the correct formatting,
  * and you can SELECT from that VIEW instead of constructing the entire query manually.
  */
+SELECT
+    title,
+    replace(
+        replace(
+            replace(initcap(lower(actors)), ', ', '|'),
+            ' ',
+            ''
+        ),
+        '|',
+        ', '
+    ) AS actors
+FROM film_list
+WHERE category = 'Documentary'
+  AND rating = 'G'
+ORDER BY title;
