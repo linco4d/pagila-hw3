@@ -1,5 +1,5 @@
 # pagila-hw3
-[![](https://github.com/linco4d/pagila-hw3/workflows/tests.yml/badge.svg)](https://github.com/linco4d/pagila-hw3/actions/workflows/tests.yml)
+[![](https://github.com/linco4d/pagila-hw3/workflows/tests/badge.svg)](https://github.com/linco4d/pagila-hw3/actions/workflows/tests.yml)
 
 ## Tasks
 
